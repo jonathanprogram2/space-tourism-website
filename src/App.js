@@ -4,6 +4,7 @@ import './App.css';
 import Sidebar from './pages/Sidebar';
 import Hero from './pages/Hero';
 import Destination from './pages/Destination';
+import Crew from './pages/Crew';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/destination" element={<Destination />} />
+          <Route path="/crew" element={<Crew />} />
         </Routes>
       </div>
   );
