@@ -1,0 +1,119 @@
+.destination-page {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20rem;
+    padding-top: 8rem;
+    color: white;
+    width: 100vw;
+}
+
+.destination-page h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+    margin-bottom: 4rem;
+}
+
+.destination-page h5 span {
+    font-weight: bold;
+    margin-right: 1rem;
+    opacity: 0.25;
+    color: white;
+}
+
+.destination-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    padding-right: 150px;
+}
+
+.destination-content img {
+    width: 445px;
+    height: 445px;
+    object-fit: contain;
+    display: block;
+    margin-top: -6rem;
+    padding-right: 110px;
+}
+
+.destination-info {
+    max-width: 445px;
+    margin-left: -10rem;
+    margin-top: -2rem;
+
+}
+
+.planet-tabs {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.planet-tabs li {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+    cursor: pointer;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.planet-tabs li:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.planet-tabs .active {
+    border-color: white;
+    color: white;
+}
+
+.destination-info h1 {
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.destination-info p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 2rem;
+}
+
+.destination-stats {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+}  
+
+.destination-stats h6 {
+    font-size: 14px;
+    color: #D0D6F9;
+    letter-spacing: 2.36px;
+    margin-bottom: 0.75rem;
+}
+
+.destination-stats p {
+    font-size: 28px;
+    font-family: 'Bellefair', serif;
+    color: white;
+}
