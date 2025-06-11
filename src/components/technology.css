@@ -1,0 +1,99 @@
+.technology-page {
+    padding-left: 15rem;
+    padding-top: 8rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.technology-page h5 {
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.technology-page h5 span {
+    font-weight: bold;
+    opacity: 0.25;
+    margin-left: 5rem;
+    color: white;
+    margin-right: 2rem;
+}
+
+.technology-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.tech-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tech-selector button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Bellefair', serif;
+}
+
+.tech-selector .active {
+    background-color: white;
+    color: #0B0D17;
+}
+
+.technology-info {
+    max-width: 550px;
+}
+
+.technology-info h6 {
+    font-family: 'Bellefair', serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+    opacity: 0.7;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.technology-info h1 {
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+.technology-info p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+.technology-image img {
+    height: 500px;
+    object-fit: cover;
+}

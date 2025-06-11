@@ -11,11 +11,12 @@
 }
 
 .destination-page h5 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bellefair', serif;
     font-size: 28px;
+    font-weight: normal;
     letter-spacing: 4.75px;
     text-transform: uppercase;
-    color: #D0D6F9;
+    color: white;
     margin-bottom: 4rem;
 }
 

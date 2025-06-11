@@ -16,12 +16,14 @@
 }
 
 .crew-page h5 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bellefair', serif;
     font-size: 28px;
+    font-weight: normal;
     letter-spacing: 4.75px;
-    color: #D0D6F9;
+    color: white;
     margin-bottom: 4rem;
     margin-left: 3rem;
+    text-transform: uppercase;
 }
 
 .crew-page h5 span {
