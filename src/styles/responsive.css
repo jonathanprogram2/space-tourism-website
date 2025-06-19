@@ -63,7 +63,7 @@
         justify-content: center !important;
         align-items: center !important;
         position: static !important;   
-        margin-bottom: 4rem !important;
+        margin-bottom: -4rem !important;
     }
 
     .crew-image img,
@@ -397,12 +397,12 @@
 
     .crew-page h5 {
         text-align: center;
-        font-size: 1.8rem !important;
+        font-size: 1.5rem !important;
         text-transform: uppercase;
         font-family: 'Barlow Condensed', sans-serif;
         letter-spacing: 3px;
         color: #D0D6F9;
-        margin-right: 8rem;
+        margin-right: 1rem;
     }
 
     .crew-page h5 span {
@@ -468,6 +468,7 @@
         gap: 0.5rem;
         margin-top: 2rem !important;
         margin-bottom: 1.5rem;
+        margin-right: -5rem;
         z-index: 2;
     }
 
@@ -540,13 +541,13 @@
         align-items: center;
         gap: 0.75rem;
         text-align: left;
-        font-size: 1rem;
+        font-size: 1.6rem !important;
         text-transform: uppercase;
         font-family: 'Barlow Condensed', sans-serif;
         letter-spacing: 2px;
         color: #D0D6F9;
         margin-bottom: 2rem;
-        margin-left: -23rem;
+        margin-left: -19rem;
     }
 
     .technology-page h5 span {
@@ -582,6 +583,7 @@
         height: 300px !important;
         object-fit: contain !important;
         margin: 0 auto;
+        margin-right: 6rem;
     }
 
     .tech-selector {
@@ -591,7 +593,7 @@
         justify-content: center;
         gap: 1rem;
         margin: 1.5rem 0;
-        margin-left: -17rem;
+        margin-left: -10rem;
     }
 
     .tech-selector button {
@@ -614,7 +616,7 @@
         order: 3;
         text-align: center;
         padding: 0 1rem;
-        margin-left: -14rem;
+        margin-left: -11rem;
     }
 
     .technology-info h6 {
