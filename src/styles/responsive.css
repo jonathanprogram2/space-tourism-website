@@ -403,6 +403,7 @@
         letter-spacing: 3px;
         color: #D0D6F9;
         margin-right: 1rem;
+        margin-top: 2rem;
     }
 
     .crew-page h5 span {
@@ -585,7 +586,7 @@
         height: 300px !important;
         object-fit: contain !important;
         margin: 0 auto;
-        margin-right: 2rem !important;
+        margin-right: 1rem !important;
     }
 
     .tech-selector {
