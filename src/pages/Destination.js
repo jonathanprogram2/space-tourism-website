@@ -21,7 +21,7 @@ function Destination() {
                 minHeight: '100vh',
             }}
         >
-            <h5><span>01</span> Pick your destination</h5>
+            <h5 className="destination-heading"><span>01</span> Pick your destination</h5>
 
             <div className="destination-content">
                 <img src={`/${currentPlanet.images.png}`} alt={currentPlanet.name} />

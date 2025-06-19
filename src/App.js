@@ -6,6 +6,7 @@ import Hero from './pages/Hero';
 import Destination from './pages/Destination';
 import Crew from './pages/Crew';
 import Technology from './pages/Technology';
+import './styles/responsive.css';
 
 function App() {
   return (
