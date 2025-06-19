@@ -573,6 +573,8 @@
         position: relative !important;
         left: 50%;
         transform: translateX(-50%);
+        margin-left: 5rem !important;
+        justify-content: flex-end !important;
     }
 
     .technology-image img {
@@ -583,7 +585,7 @@
         height: 300px !important;
         object-fit: contain !important;
         margin: 0 auto;
-        margin-right: 6rem;
+        margin-right: 7rem !important;
     }
 
     .tech-selector {
