@@ -596,7 +596,7 @@
         justify-content: center;
         gap: 1rem;
         margin: 1.5rem 0;
-        margin-left: -10rem;
+        margin-left: -12rem;
     }
 
     .tech-selector button {
@@ -619,7 +619,7 @@
         order: 3;
         text-align: center;
         padding: 0 1rem;
-        margin-left: -11rem;
+        margin-left: -12rem;
     }
 
     .technology-info h6 {
