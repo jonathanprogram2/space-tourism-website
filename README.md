@@ -24,7 +24,8 @@ A modern frontend project built with **React**, inspired by the Space Tourism de
 - ✅ Mobile-friendly layouts and stacked content views
 - ✅ Google Fonts: Barlow, Barlow Condensed, Bellefair
 - ✅ Frosted-glass backdrop effect with dark mode aesthetic
-- ✅ Vercel Deployment: [Live Preview](https://space-tourism-jonathan.vercel.app/)
+- ✅ Pixel-perfect background image switching based on screen size
+- ✅ Clean Vercel Deployment: [Live Preview](https://space-tourism-jonathan.vercel.app/)
 
 ---
 
@@ -51,22 +52,9 @@ A modern frontend project built with **React**, inspired by the Space Tourism de
 - 🔍 Problem: Matching Figma spacing, shadows, and text casing was tricky.
 - 🛠 Fix: Used `Barlow Condensed` with exact `letter-spacing`, and added manual margins based on Figma references.
 
----
+### 4. **Mobile View**
+- ⚠️ Crafting full mobile responsiveness for the **Home**, **Destination**, **Crew**, and **Technology** pages required extensive layout overrides and fine-grained CSS tuning. Each section had unique alignment, scaling, and typography requirements that clashed with the desktop styles. Solving this involved mobile-first flexbox restructuring, background image breakpoints, exact rem/pixel spacing, and layered positioning to preserve fidelity across screen sizes.
 
-## 📂 Folder Structure
-
-```bash
-space-tourism-site/
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── data/
-│   └── assets/
-├── .gitignore
-├── package.json
-└── README.md
-```
 ---
 
 ## 🛠 Installation & Development
